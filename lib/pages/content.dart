@@ -31,6 +31,32 @@ class Content extends StatelessWidget {
               ),
             ),
           ),
+            Positioned(
+              top: 25,
+              left: 15,
+              child:
+                  Container(height: 30, child: Image.asset('assets/logo.png'))),
+          Positioned(
+            top: 62,
+            left: 25,
+            child: modifiedtext(
+                text: "it's where you want to be",
+                color: Colors.grey.shade900,
+                size: 14),
+          ),
+          Positioned(
+            bottom: 30,
+            left: 15,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  '5678 4356 0126 7800',
+                  style: GoogleFonts.sourceCodePro(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 24,
+                      color: Colors.grey.shade700),
+                ),
         
           
         ],
